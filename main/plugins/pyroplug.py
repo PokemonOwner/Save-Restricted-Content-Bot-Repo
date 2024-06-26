@@ -914,7 +914,7 @@ async def x(userbot, client, sender, edit_id, msg_link, i, file_n):
                     file = path
                 thumb_path = await screenshot(file, duration, sender)
                 
-                caption = f"{msg.caption}\n\n__Unrestricted by **[Team SPY](https://t.me/dev_gagan)**__" if msg.caption else "__Unrestricted by **[Team SPY](https://t.me/dev_gagan)**__"
+                caption = f"{msg.caption}\n\n__Downloaded By **[TechMon](https://t.me/techmon_upsc)**__" if msg.caption else "__DOWNLOADED BY **[TechMon](https://t.me/techmon_upsc)**__"
                 await send_document_with_chat_id(client, sender, path, caption, thumb_path, upm)
             os.remove(file)
             await upm.delete()
