@@ -15,7 +15,7 @@ import logging, time
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
-logging.getLogger("telethon").setLevel(logging.WARNING)
+
 
 uvloop.install()
 MDB = "mongodb+srv://ggn:ggn@ggn.upuljx5.mongodb.net/?retryWrites=true&w=majority&appName=ggn"
